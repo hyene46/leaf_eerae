@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HYENEES</title>
+<meta charset="utf-8">
+<meta name="viewport"
+content="width=device-width, initial-
+scale=;">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+.topnav{
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 50%;
+}
+.column.middle {
+  width: 50%;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@@media screen and (max-width: 600px) {
+  .column.side, .cloumn.middle {
+    width: 100%
+  }
+}
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>HYENEES</h1>
+  <p>Web digner</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>ilustaition</h2>
+    <p>일러스트도 굿 </p>
+  </div>
+
+  <div class="column middle">
+    <h2>Photoshop</h2>
+    <p>포토샵은 더 굿</p>
+    <p>냠냠굿</p>
+  </div>
+
+  <div class="column side">
+    <h2>Lightroom</h2>
+    <p>요즘은 또 사진도 배우조</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>2013-2018 designer Hyenee</p>
+</div>
+
+</body>
+</html>
